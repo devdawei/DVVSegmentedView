@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546B5DB31EC80BB7552A7529 /* libPods-DVVSegmentedView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A84AA2D7136DB7BB148C7746 /* libPods-DVVSegmentedView.a */; };
+		632956AE27C7820A001BCC24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 632956AD27C7820A001BCC24 /* AppDelegate.m */; };
+		632956B127C7820A001BCC24 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 632956B027C7820A001BCC24 /* SceneDelegate.m */; };
+		632956B427C7820A001BCC24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 632956B327C7820A001BCC24 /* ViewController.m */; };
+		632956B727C7820A001BCC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632956B527C7820A001BCC24 /* Main.storyboard */; };
+		632956B927C7820C001BCC24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632956B827C7820C001BCC24 /* Assets.xcassets */; };
+		632956BC27C7820C001BCC24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632956BA27C7820C001BCC24 /* LaunchScreen.storyboard */; };
+		632956BF27C7820C001BCC24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 632956BE27C7820C001BCC24 /* main.m */; };
+		632956CC27C78D10001BCC24 /* DVVSegmentedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 632956CB27C78D10001BCC24 /* DVVSegmentedModel.m */; };
+		632956CF27C7906B001BCC24 /* DVVSegmentedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 632956CE27C7906B001BCC24 /* DVVSegmentedCell.m */; };
+		632956DF27C79242001BCC24 /* DVVSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 632956DE27C79242001BCC24 /* DVVSegmentedView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		632956A927C7820A001BCC24 /* DVVSegmentedView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVVSegmentedView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		632956AC27C7820A001BCC24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		632956AD27C7820A001BCC24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		632956AF27C7820A001BCC24 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		632956B027C7820A001BCC24 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		632956B227C7820A001BCC24 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		632956B327C7820A001BCC24 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		632956B627C7820A001BCC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		632956B827C7820C001BCC24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		632956BB27C7820C001BCC24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		632956BD27C7820C001BCC24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632956BE27C7820C001BCC24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		632956CA27C78D10001BCC24 /* DVVSegmentedModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVVSegmentedModel.h; sourceTree = "<group>"; };
+		632956CB27C78D10001BCC24 /* DVVSegmentedModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVSegmentedModel.m; sourceTree = "<group>"; };
+		632956CD27C7906B001BCC24 /* DVVSegmentedCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVVSegmentedCell.h; sourceTree = "<group>"; };
+		632956CE27C7906B001BCC24 /* DVVSegmentedCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVSegmentedCell.m; sourceTree = "<group>"; };
+		632956DD27C79242001BCC24 /* DVVSegmentedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVVSegmentedView.h; sourceTree = "<group>"; };
+		632956DE27C79242001BCC24 /* DVVSegmentedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVVSegmentedView.m; sourceTree = "<group>"; };
+		9B1121F6E4BD7EEF940FC27E /* Pods-DVVSegmentedView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVSegmentedView.release.xcconfig"; path = "Target Support Files/Pods-DVVSegmentedView/Pods-DVVSegmentedView.release.xcconfig"; sourceTree = "<group>"; };
+		A84AA2D7136DB7BB148C7746 /* libPods-DVVSegmentedView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DVVSegmentedView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D220C11A138A1A588C87B6D0 /* Pods-DVVSegmentedView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DVVSegmentedView.debug.xcconfig"; path = "Target Support Files/Pods-DVVSegmentedView/Pods-DVVSegmentedView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		632956A627C7820A001BCC24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546B5DB31EC80BB7552A7529 /* libPods-DVVSegmentedView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		313ACD7547CFF0D2F4A4E996 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A84AA2D7136DB7BB148C7746 /* libPods-DVVSegmentedView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		632956A027C7820A001BCC24 = {
+			isa = PBXGroup;
+			children = (
+				632956AB27C7820A001BCC24 /* DVVSegmentedView */,
+				632956AA27C7820A001BCC24 /* Products */,
+				A83CE405E7E72C4A9BDEFC71 /* Pods */,
+				313ACD7547CFF0D2F4A4E996 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		632956AA27C7820A001BCC24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				632956A927C7820A001BCC24 /* DVVSegmentedView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		632956AB27C7820A001BCC24 /* DVVSegmentedView */ = {
+			isa = PBXGroup;
+			children = (
+				632956C527C7823A001BCC24 /* DVVSegmentedView */,
+				632956AC27C7820A001BCC24 /* AppDelegate.h */,
+				632956AD27C7820A001BCC24 /* AppDelegate.m */,
+				632956AF27C7820A001BCC24 /* SceneDelegate.h */,
+				632956B027C7820A001BCC24 /* SceneDelegate.m */,
+				632956B227C7820A001BCC24 /* ViewController.h */,
+				632956B327C7820A001BCC24 /* ViewController.m */,
+				632956B527C7820A001BCC24 /* Main.storyboard */,
+				632956B827C7820C001BCC24 /* Assets.xcassets */,
+				632956BA27C7820C001BCC24 /* LaunchScreen.storyboard */,
+				632956BD27C7820C001BCC24 /* Info.plist */,
+				632956BE27C7820C001BCC24 /* main.m */,
+			);
+			path = DVVSegmentedView;
+			sourceTree = "<group>";
+		};
+		632956C527C7823A001BCC24 /* DVVSegmentedView */ = {
+			isa = PBXGroup;
+			children = (
+				632956DD27C79242001BCC24 /* DVVSegmentedView.h */,
+				632956DE27C79242001BCC24 /* DVVSegmentedView.m */,
+				632956CA27C78D10001BCC24 /* DVVSegmentedModel.h */,
+				632956CB27C78D10001BCC24 /* DVVSegmentedModel.m */,
+				632956CD27C7906B001BCC24 /* DVVSegmentedCell.h */,
+				632956CE27C7906B001BCC24 /* DVVSegmentedCell.m */,
+			);
+			path = DVVSegmentedView;
+			sourceTree = "<group>";
+		};
+		A83CE405E7E72C4A9BDEFC71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D220C11A138A1A588C87B6D0 /* Pods-DVVSegmentedView.debug.xcconfig */,
+				9B1121F6E4BD7EEF940FC27E /* Pods-DVVSegmentedView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		632956A827C7820A001BCC24 /* DVVSegmentedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 632956C227C7820C001BCC24 /* Build configuration list for PBXNativeTarget "DVVSegmentedView" */;
+			buildPhases = (
+				BA0D407B8516540BCC645A81 /* [CP] Check Pods Manifest.lock */,
+				632956A527C7820A001BCC24 /* Sources */,
+				632956A627C7820A001BCC24 /* Frameworks */,
+				632956A727C7820A001BCC24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVVSegmentedView;
+			productName = DVVSegmentedView;
+			productReference = 632956A927C7820A001BCC24 /* DVVSegmentedView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		632956A127C7820A001BCC24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					632956A827C7820A001BCC24 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 632956A427C7820A001BCC24 /* Build configuration list for PBXProject "DVVSegmentedView" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 632956A027C7820A001BCC24;
+			productRefGroup = 632956AA27C7820A001BCC24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				632956A827C7820A001BCC24 /* DVVSegmentedView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		632956A727C7820A001BCC24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632956BC27C7820C001BCC24 /* LaunchScreen.storyboard in Resources */,
+				632956B927C7820C001BCC24 /* Assets.xcassets in Resources */,
+				632956B727C7820A001BCC24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA0D407B8516540BCC645A81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DVVSegmentedView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		632956A527C7820A001BCC24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632956B427C7820A001BCC24 /* ViewController.m in Sources */,
+				632956CF27C7906B001BCC24 /* DVVSegmentedCell.m in Sources */,
+				632956CC27C78D10001BCC24 /* DVVSegmentedModel.m in Sources */,
+				632956DF27C79242001BCC24 /* DVVSegmentedView.m in Sources */,
+				632956AE27C7820A001BCC24 /* AppDelegate.m in Sources */,
+				632956BF27C7820C001BCC24 /* main.m in Sources */,
+				632956B127C7820A001BCC24 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		632956B527C7820A001BCC24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632956B627C7820A001BCC24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		632956BA27C7820C001BCC24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632956BB27C7820C001BCC24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		632956C027C7820C001BCC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		632956C127C7820C001BCC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		632956C327C7820C001BCC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D220C11A138A1A588C87B6D0 /* Pods-DVVSegmentedView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DVVSegmentedView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVSegmentedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		632956C427C7820C001BCC24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1121F6E4BD7EEF940FC27E /* Pods-DVVSegmentedView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DVVSegmentedView/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVSegmentedView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		632956A427C7820A001BCC24 /* Build configuration list for PBXProject "DVVSegmentedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632956C027C7820C001BCC24 /* Debug */,
+				632956C127C7820C001BCC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		632956C227C7820C001BCC24 /* Build configuration list for PBXNativeTarget "DVVSegmentedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				632956C327C7820C001BCC24 /* Debug */,
+				632956C427C7820C001BCC24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 632956A127C7820A001BCC24 /* Project object */;
+}

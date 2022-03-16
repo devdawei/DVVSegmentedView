@@ -1,0 +1,29 @@
+PODS:
+  - DVVGradientView (1.0.0)
+  - PureLayout (3.1.9)
+
+DEPENDENCIES:
+  - DVVGradientView (from `https://github.com/devdawei/DVVGradientView.git`, tag `1.0.0`)
+  - PureLayout
+
+SPEC REPOS:
+  trunk:
+    - PureLayout
+
+EXTERNAL SOURCES:
+  DVVGradientView:
+    :git: https://github.com/devdawei/DVVGradientView.git
+    :tag: 1.0.0
+
+CHECKOUT OPTIONS:
+  DVVGradientView:
+    :git: https://github.com/devdawei/DVVGradientView.git
+    :tag: 1.0.0
+
+SPEC CHECKSUMS:
+  DVVGradientView: 8d78338140d5b62ccd763d8cfd3b87d6e127946b
+  PureLayout: 5fb5e5429519627d60d079ccb1eaa7265ce7cf88
+
+PODFILE CHECKSUM: fffd96f9c1c65ddd44c2c9f41408c25da47a4cb1
+
+COCOAPODS: 1.11.2
