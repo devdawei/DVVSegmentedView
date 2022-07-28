@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 s.name         = 'DVVSegmentedView'
 s.summary      = 'iOS 自定义的分段控制器，可通过简单配置实现多种样式'
-s.version      = '1.0.0'
+s.version      = '1.0.1'
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
 s.authors      = { 'devdawei' => '2549129899@qq.com' }
 s.homepage     = 'https://github.com/devdawei'
@@ -19,5 +19,6 @@ s.source_files = 'DVVSegmentedView/DVVSegmentedView/*.{h,m}'
 s.frameworks = 'Foundation', 'UIKit'
 
 s.dependency 'PureLayout'
+s.dependency 'DVVGradientView', :git => 'https://github.com/devdawei/DVVGradientView.git', :tag => '1.0.0'
 
 end
